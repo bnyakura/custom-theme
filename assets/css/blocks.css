@@ -1,0 +1,93 @@
+/*
+ * Block Styles
+ * 
+ * @package CustomTheme
+ */
+
+/* Block Editor Wrapper */
+.wp-block {
+  max-width: var(--container-max-width);
+}
+
+.breadcrumb {
+  margin: 1em 0;
+}
+
+.breadcrumb-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.breadcrumb-item {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb-separator {
+  margin: 0 0.5em;
+  color: #999;
+}
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .content-block-inner {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .content-block-inner.reverse {
+    direction: ltr;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-content {
+    padding: 1rem;
+  }
+
+  .wp-block-acf-hero {
+    min-height: 50vh;
+  }
+}
+
+/* Block Editor Specific Styles */
+.block-editor-page .wp-block-acf-hero {
+  min-height: 300px;
+}
+
+.block-editor-page .hero-content {
+  padding: 1rem;
+}
+
+/* Alignment Classes */
+.alignwide {
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+
+.alignfull {
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+
+@media (max-width: 768px) {
+  .alignwide,
+  .alignfull {
+    margin-left: calc(50% - 50vw + 1rem);
+    margin-right: calc(50% - 50vw + 1rem);
+  }
+}

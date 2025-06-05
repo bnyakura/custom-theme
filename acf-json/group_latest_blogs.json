@@ -1,0 +1,31 @@
+{
+  "key": "group_latest_blogs",
+  "title": "Latest Blogs Fields",
+  "fields": [
+    {
+      "key": "field_latest_custom_field",
+      "label": "Custom Field",
+      "name": "latest_custom_filed",
+      "type": "text",
+      "instructions": "",
+      "required": 1
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "post_type",
+        "operator": "==",
+        "value": "latest_blogs"
+      }
+    ]
+  ],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": [],
+  "active": true,
+  "description": ""
+}
