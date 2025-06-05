@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Custom WordPress Theme
 
 A modern, responsive WordPress theme built with ACF blocks and Gutenberg.
@@ -81,3 +82,7 @@ For development, edit the source files in `assets/css/` and `assets/js/`. The th
 This theme is licensed under the GPL v2 or later.
 
 
+=======
+# custom-theme
+This project is a custom WordPress theme developed by Brandon Nyakura as part of an assignment for the Senior Developer role. The theme showcases clean code structure, WordPress best practices.
+>>>>>>> 9930fdc0ca39b65f55e17300320ff3f724ab493c
